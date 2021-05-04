@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="713495b8-f08d-4de5-baad-2e0b3019010c">
+  <name>ИнтеграцияRMQ_Т2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция RMQ Т2</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ИнтеграцияRMQОтладка</content>
+  <content>CommonModule.ИнтеграцияRMQТ2</content>
+  <content>2f837443-1dfa-4cc8-97e9-94cecf93bf9b</content>
+  <content>5897e0a4-4811-4ac4-9e9e-f317ca86602e</content>
+</mdclass:Subsystem>

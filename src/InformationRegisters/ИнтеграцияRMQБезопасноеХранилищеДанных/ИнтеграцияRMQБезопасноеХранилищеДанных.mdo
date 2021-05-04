@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85e942bf-10e2-4e59-9b03-90bb6df67e8c">
+  <producedTypes>
+    <selectionType typeId="d791eb95-b88e-4ed7-8e50-df9e816f9e8f" valueTypeId="4b691505-6f9e-40da-b492-36f20c41c8dd"/>
+    <listType typeId="db4354a2-b22e-4a1c-9e36-2fad04718df5" valueTypeId="ffc931bd-3be8-47fb-b615-aa1249b1f283"/>
+    <managerType typeId="b0dee523-5340-401f-bda2-939bfc7ed234" valueTypeId="437ae70b-f585-44d5-ba25-fd8f9308427b"/>
+    <recordSetType typeId="c3bac0d4-a358-4b33-b09d-1dea52603e31" valueTypeId="c2a16e68-47d0-4292-9392-82b5b4f5a40c"/>
+    <recordKeyType typeId="c21df405-7104-4251-89f2-183c7e84335e" valueTypeId="659dae58-c9eb-465b-91ae-4eb547ddd439"/>
+    <recordType typeId="3a5ba9e9-e29e-4124-bf7f-d0851daa7cfd" valueTypeId="88a931fa-bb90-4eec-8228-8d50a2e66087"/>
+    <recordManagerType typeId="91f5840f-220d-4164-aa5d-7ce73db32f7c" valueTypeId="d31b295e-8b1c-41ea-bf76-5becd2755e1b"/>
+  </producedTypes>
+  <name>ИнтеграцияRMQБезопасноеХранилищеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция RMQ: Безопасное хранилище данных</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a654c3c2-3f4a-4e77-b2e4-dd547fd38a03">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ef4553ba-37b8-461b-ba15-574c43e50f79">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнтеграцияRMQБрокеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

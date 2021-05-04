@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="570b4275-ca40-44ca-857f-e34be9b5d819">
+  <name>ИнтеграцияRMQ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция RMQ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИнтеграцияRMQ</picture>
+  </picture>
+  <content>Catalog.ИнтеграцияRMQБрокеры</content>
+  <content>Catalog.ИнтеграцияRMQОчереди</content>
+  <content>Catalog.ИнтеграцияRMQТочкиОбмена</content>
+</mdclass:Subsystem>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59f3c1dd-4c5b-4927-9091-cbebcfae32ee">
+  <producedTypes>
+    <selectionType typeId="b81f0cf8-4d79-46e4-abb0-45c8668171f4" valueTypeId="678efe24-63cd-45b4-b058-43f030ba4137"/>
+    <listType typeId="28143caa-502a-463b-aeef-e8f86ef14ce1" valueTypeId="c1889f1f-8ca9-4842-a202-d4465d2c0a5e"/>
+    <managerType typeId="d417a7de-0604-43df-875c-16d496bc8aa3" valueTypeId="b44d723e-06d5-4de3-9367-387c2e85f9d8"/>
+    <recordSetType typeId="4784b2a9-0291-4107-8d89-860bb46d6f1d" valueTypeId="4ad03351-ac0d-496a-b465-baca411b853f"/>
+    <recordKeyType typeId="d395dab8-d1fe-4d4c-8eea-bf1f61410b9a" valueTypeId="71abada8-e40f-4005-b448-454b8c51b728"/>
+    <recordType typeId="8cf59cdc-727b-4ca6-bc5d-f6d8d54d23a3" valueTypeId="423f5686-1a0d-40cb-afb3-96c400b9a518"/>
+    <recordManagerType typeId="4161685f-fb68-49a4-8ffa-3af87b6786d0" valueTypeId="95fabac3-7e9e-4409-a6b6-63fff9f7ba11"/>
+  </producedTypes>
+  <name>удалитьЛогПринятых</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить лог принятых</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удалитьЛогПринятых.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0a141b4f-1d7e-4a4e-ab2d-dbbcb4213682">
+    <name>ДанныеСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="ed4dbb3e-cc7f-457e-96f3-bfd09830bf7e">
+    <name>ДатаПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата получения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b540c7de-237a-489b-8e19-cd61de4eaa7c">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6edaa220-012d-49ad-9b2e-92d6729845ad">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31d37e8f-15d3-45df-a21f-e8edf941b59c">
+  <name>Service1C2RMQ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Service 1C to RMQ</value>
+  </synonym>
+  <rootURL>1C2RMQ</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="28aa4c49-339a-4df2-a409-eb8681ed7d9a">
+    <name>Subscribes</name>
+    <synonym>
+      <key>ru</key>
+      <value>Subscribes</value>
+    </synonym>
+    <template>/subscribes/*</template>
+    <methods uuid="6c60c7c5-6d0b-4a01-b4e4-2505d43f6a74">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>SubscribesGet</handler>
+    </methods>
+    <methods uuid="d931b969-4886-4c28-8fc8-140892086a41">
+      <name>Any</name>
+      <synonym>
+        <key>ru</key>
+        <value>Any</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>SubscribesAny</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8f7c4f03-85a3-451e-ae49-91b9021868eb">
+    <name>Wakeup</name>
+    <synonym>
+      <key>ru</key>
+      <value>Wakeup</value>
+    </synonym>
+    <template>/wakeup</template>
+    <methods uuid="0db90792-305a-4b43-a5bb-8f657b21ed5f">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>WakeupPost</handler>
+    </methods>
+    <methods uuid="627a8a3e-37d8-450b-a614-f4808cfc292e">
+      <name>Any</name>
+      <synonym>
+        <key>ru</key>
+        <value>Any</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>WakeupAny</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

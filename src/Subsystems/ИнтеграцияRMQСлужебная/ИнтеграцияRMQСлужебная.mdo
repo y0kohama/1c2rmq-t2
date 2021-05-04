@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28c49232-61a7-4396-858d-e460b3604404">
+  <name>ИнтеграцияRMQСлужебная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция RMQ: Служебная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ИнтеграцияRMQБрокеры</content>
+  <content>Catalog.ИнтеграцияRMQОчереди</content>
+  <content>InformationRegister.ИнтеграцияRMQБезопасноеХранилищеДанных</content>
+  <content>Enum.ИнтеграцияRMQТипТочкиОбмена</content>
+  <content>CommonModule.ИнтеграцияRMQ</content>
+  <content>CommonTemplate.driver1C2RMQ</content>
+  <content>Catalog.ИнтеграцияRMQТочкиОбмена</content>
+  <content>HTTPService.Service1C2RMQ</content>
+  <content>CommonModule.ИнтеграцияRMQКлиентСервер</content>
+  <content>CommonPicture.ИнтеграцияRMQ</content>
+</mdclass:Subsystem>

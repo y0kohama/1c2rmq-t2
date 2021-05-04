@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30ef6891-2aa3-4df1-a584-793c19ce4caf">
+  <name>ИнтеграцияRMQ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция RMQ</value>
+  </synonym>
+</mdclass:CommonPicture>

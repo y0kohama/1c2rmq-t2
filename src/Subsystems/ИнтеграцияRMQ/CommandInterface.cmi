@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ИнтеграцияRMQБрокеры.StandardCommand.OpenList</commands>
+      <commands>Catalog.ИнтеграцияRMQТочкиОбмена.StandardCommand.OpenList</commands>
+      <commands>Catalog.ИнтеграцияRMQОчереди.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelCreate</group>
+      <commands>Catalog.ИнтеграцияRMQБрокеры.StandardCommand.Create</commands>
+      <commands>Catalog.ИнтеграцияRMQТочкиОбмена.StandardCommand.Create</commands>
+      <commands>Catalog.ИнтеграцияRMQОчереди.StandardCommand.Create</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

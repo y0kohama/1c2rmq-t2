@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="557b7f76-e93c-4251-87fe-12462b911f29">
+  <name>ИнтеграцияRMQ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция RMQ</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f5889644-7e58-4111-8e8f-b6fe93c4c1d3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="52f90d04-1a96-4add-ba24-d588b311866b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e2e0622b-8db2-49d3-839b-74ca981c4366"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d6b1e247-3b71-4f33-ae0a-e21b2ef9ff07"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2ab13ae0-f80a-439b-be86-5cf0728505a0"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0491c789-c018-4358-b65c-767de156b009"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="24f3b0ca-6d9e-4fbf-b746-581155dfad30"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Титан-2</vendor>
+  <version>1.0.1.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>585 Золотой</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.15</compatibilityMode>
+  <languages uuid="d738539d-5fbf-46e5-85ca-ffad2629b17b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ИнтеграцияRMQ_Т2</subsystems>
+  <subsystems>Subsystem.ИнтеграцияRMQ</subsystems>
+  <subsystems>Subsystem.ИнтеграцияRMQСлужебная</subsystems>
+  <commonPictures>CommonPicture.ИнтеграцияRMQ</commonPictures>
+  <commonTemplates>CommonTemplate.driver1C2RMQ</commonTemplates>
+  <commonModules>CommonModule.ИнтеграцияRMQT2_nomenclature</commonModules>
+  <commonModules>CommonModule.ИнтеграцияRMQТ2</commonModules>
+  <commonModules>CommonModule.ИнтеграцияRMQТ2ОбновлениеИнформационнойБазы</commonModules>
+  <commonModules>CommonModule.ИнтеграцияRMQ</commonModules>
+  <commonModules>CommonModule.ИнтеграцияRMQКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <httpServices>HTTPService.Service1C2RMQ</httpServices>
+  <catalogs>Catalog.ИнтеграцияRMQБрокеры</catalogs>
+  <catalogs>Catalog.ИнтеграцияRMQОчереди</catalogs>
+  <catalogs>Catalog.ИнтеграцияRMQТочкиОбмена</catalogs>
+  <enums>Enum.ИнтеграцияRMQТипТочкиОбмена</enums>
+  <dataProcessors>DataProcessor.ИнтеграцияRMQОтладка</dataProcessors>
+  <informationRegisters>InformationRegister.ИнтеграцияRMQБезопасноеХранилищеДанных</informationRegisters>
+  <informationRegisters>InformationRegister.удалитьЛогПринятых</informationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4a0c6ce-e5cc-490a-b083-e76eb6312966">
+  <name>driver1C2RMQ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Driver 1C to RMQ</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>
